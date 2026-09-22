@@ -3,6 +3,26 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url(../images/cover-image-dark.png);
+    --bg-color: #000028;
+    --title-color: #db00ff;
+    --accent-color: #ff0070;
+    --title-decor-color: #000028;
+    --p-color: #f1b2ce;
+    --menu-outline-color: rgba(255, 0, 112, 0.4);
+    --decorated-zone-color: #ff0070;
+    --page-title-shadow: #ff0070;
+    --title-decor-bg-color: #ff0070;
+    --title-paragraph-color: #ff0070;
+    --section-title-color: #ff0070;
+    --solutions-title-bg-color: #ff0070;
+    --link-color: #ff0070;
+    --footer-title-shadow: #ff0070;
+    --dark-red-color: #ff0070;
+  }
+}
 
 :root.theme-dark {
   /* сохраните этот селектор в приведённом виде.

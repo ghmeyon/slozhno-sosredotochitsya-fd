@@ -3,6 +3,26 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --title-color: #ffc2e6;
+    --accent-color: #353430;
+    --title-decor-color: #000028;
+    --p-color: #353430;
+    --menu-outline-color: rgba(50, 49, 45, 0.4);
+    --decorated-zone-color: #353430;
+    --page-title-shadow: #ff8dcb;
+    --title-decor-bg-color: #ff8dcb;
+    --title-paragraph-color: #ff8dcb;
+    --section-title-color: #353430;
+    --solutions-title-bg-color: #ff8dcb;
+    --link-color: #ff8dcb;
+    --footer-title-shadow: #ff0070;
+    --dark-red-color: transparent;
+  }
+}
 
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
