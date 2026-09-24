@@ -8,12 +8,15 @@
   --font-style: normal;
   --font-weight: normal;
   --font-size: 18px;
+  --menu-font-size: 18px;
+  --menu-line-height: 18px;
+  --menu-font-size-desk: 25px;
+  --menu-line-height-desk: 25px;
   --line-height: 23.4px;
   --title-font-weight: bold;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --title-font-size-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-line-height: 82.5%;
   --rec-line-height: 25px;
-  --menu_line-height: 18px;
   --title-decor-font-weight: 700;
 }
