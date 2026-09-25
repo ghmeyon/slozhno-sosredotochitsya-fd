@@ -211,13 +211,7 @@
 }
 
 .solutions_title {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
   font-weight: var(--font-weight);
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  color: var(--title-decor-color);
-  background-color: var(--solutions-title-bg-color);
 }
 
 .how_to_units .paragraps {
